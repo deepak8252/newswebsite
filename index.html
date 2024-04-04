@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily news website</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <!-- header section start -->
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>daily news</h1>
+                <ul class="navbar" id="navbar">
+                    <li id="home" onclick="navclick('india')">home</li>
+                    <li id="politics" onclick="navclick('politics')">politics</li>
+                    <li id="sports" onclick="navclick('sports')">sports</li>
+                    <li id="technology" onclick="navclick('technology')">technology</li>
+                </ul>
+             
+            </div>
+            <div class="menu" id="menu">menu bar</div>
+            <div class="search">
+                <input type="text" placeholder="search your news" id="inputdata" value="">
+                <button id="searchBtn">search</button>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <h3 class="type">
+        </h3>
+    </div>
+    <div class="cartdata">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
